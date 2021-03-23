@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="fc0b0afb-e011-4b2c-9e95-9ecae3caef14" ChangeDateTime="03/23/2021 19:38:11">
+    <Property Name="ElementName" Value="[dbo].[Purchase].[PurchaseNumber ]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Purchase]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PurchaseNumber" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a207ff8b-01b9-4d79-86ca-36bd8f54f247" ChangeDateTime="03/23/2021 19:44:59">
+    <Property Name="ElementName" Value="[dbo].[User].[PasswordHash]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HashedPassword" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ad3c8ba7-f0ae-499b-9da6-4a6b40cf34f3" ChangeDateTime="03/23/2021 19:48:51">
+    <Property Name="ElementName" Value="[dbo].[UserRole].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserRole]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="10771694-66e7-401d-8e91-8740ca75cc54" ChangeDateTime="03/23/2021 19:50:55">
+    <Property Name="ElementName" Value="[dbo].[Review].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Review]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MovieId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="87a47791-5657-46bb-b1e2-1c071bf3dae0" ChangeDateTime="03/23/2021 20:44:52">
+    <Property Name="ElementName" Value="[dbo].[MovieCast].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MovieCast]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MovieId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e22f3c7a-cf4d-418e-b117-1d471a7bd3a0" ChangeDateTime="03/23/2021 20:46:43">
+    <Property Name="ElementName" Value="[dbo].[MovieGenre].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MovieGenre]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MovieId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7e9b7348-70b4-4af3-8552-bbe836cf2efc" ChangeDateTime="03/23/2021 20:52:26">
+    <Property Name="ElementName" Value="[dbo].[FK_Purchase_User_UserId]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Purchase]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Purchase_User]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="06e0ddf3-9418-4be4-bf76-35f36a625087" ChangeDateTime="03/23/2021 21:46:35">
+    <Property Name="ElementName" Value="[dbo].[Movie].[TmdUrl]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Movie]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TmdbUrl" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="df2ee8ff-cc51-4afb-ba3b-39f735891794" ChangeDateTime="03/23/2021 22:01:49">
+    <Property Name="ElementName" Value="[dbo].[User].[LockoutEnd]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LockoutEndDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8d397dbd-ab28-4c5a-bd55-a4163621a90e" ChangeDateTime="03/23/2021 22:22:33">
+    <Property Name="ElementName" Value="[dbo].[MovieCrew].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MovieCrew]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MovieId" />
+  </Operation>
+</Operations>
