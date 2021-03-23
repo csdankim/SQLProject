@@ -91,5 +91,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="PulishLocations\MovieShopDB.publish.xml" />
+    <None Include="MovieShop ER.png" />
   </ItemGroup>
 </Project>
